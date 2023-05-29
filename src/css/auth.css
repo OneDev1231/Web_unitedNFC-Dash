@@ -1,0 +1,104 @@
+.custom-componenet {
+  position: absolute;
+  width: 394px;
+  height: 394px;
+  left: calc(50% - 394px / 2 + 37px);
+  top: calc(50% - 394px / 2 - 12.5px);
+  background: rgba(255, 255, 255, 0.93);
+}
+.custom-backimg {
+  background-image: url("../assets/images/SignIn_Sign_In.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  isolation: isolate;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-title {
+  position: absolute;
+  width: 327px;
+  height: 44px;
+  left: calc(50% - 327px/2 + 35.5px);
+  top: calc(50% - 44px/2 - 187.5px);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #1E1E1E;
+}
+
+.custom-cardbox {
+  position: relative;
+  top: 54px;
+  left: 32px;
+}
+
+.custom-card {
+  position: relative;
+  width: 327px;
+  height: 310px;
+}
+
+.custom-signin-group {
+  position: relative;
+  width: 327px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.custom-line {
+  position: relative;
+  width: 327px;
+  height: 0px;
+  border: 1px solid rgba(0,0,0,0.24);
+  top: 33px;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-signup-group {
+  position: relative;
+  width: 327px;
+  height: 114px;
+  top: 66px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.custom-input-style {
+  position: relative;
+  width: 325px;
+  height: 30px;
+  padding: 0;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 0.15px;
+}::placeholder {
+  color: #1E1E1E;
+  padding-left: 10px;
+}
+
+@font-face {
+  font-family: 'InterRegular';
+  src: url('../assets/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'InterTiny';
+  src: url('../assets/fonts/Inter-Light.ttf');
+}
