@@ -8,10 +8,9 @@ function SignButton(props) {
       <Link
         type="button"
         style={{
-          position: "relative",
           width: "327px",
           height: "32px",
-          fontFamily: "InterTiny",
+          fontFamily: "InterLight",
           fontWeight: "300",
           fontSize: "13px",
           lineHeight: "16px",

@@ -5,11 +5,9 @@ function SignIn() {
   return (
     <>
       <div className="custom-componenet">
-        <div className="custom-cardbox">
-          <AuthCard />
-        </div>
+        <div className="custom-title">Sign in or create a new account</div>
+          <AuthCard left="32px" top ="10px"/>
       </div>
-      <div className="custom-title">Sign in or create a new account</div>
     </>
   );
 }

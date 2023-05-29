@@ -12,8 +12,8 @@ function App() {
       {/* <React.Fragment></React.Fragment> */}
       
       <Routes>
-        <Route path="/" element={<SignIn />}></Route>
-        <Route path="/sign-up" element={<SignUp />}></Route>
+        <Route path="/signin" element={<SignIn />}></Route>
+        <Route path="/signup" element={<SignUp />}></Route>
       </Routes>
     </div>
   );
